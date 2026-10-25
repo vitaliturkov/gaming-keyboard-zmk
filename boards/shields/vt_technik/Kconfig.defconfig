@@ -1,16 +1,8 @@
-if SHIELD_VT_TECH_DONGLE
+if SHIELD_VT_TECHNIK
 
     # Max 16 characters in keyboard name
     config ZMK_KEYBOARD_NAME
-        default "vt-tech"
-
-    config ZMK_SPLIT_ROLE_CENTRAL
-        default y
-
-    # Set this to the number of peripherals your dongle will have.
-    # For a unibody, this would be 1. If you have left and right halves, set it to 2, etc.
-    config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
-        default 2
+        default "vt-technik"
 
     config ZMK_USB
 	    default y
@@ -22,19 +14,5 @@ if SHIELD_VT_TECH_DONGLE
     # Set this to the same number as BT_MAX_CONN
     config BT_MAX_PAIRED
         default 6
-
-endif
-
-if SHIELD_VT_TECH_LEFT || SHIELD_VT_TECH_RIGHT || SHIELD_VT_TECH_DONGLE
-
-    config ZMK_SPLIT
-        default y
-
-endif
-
-if SHIELD_VT_TECH_LEFT
-
-    config ZMK_SPLIT_ROLE_CENTRAL
-        default y
 
 endif
