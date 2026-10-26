@@ -33,7 +33,7 @@
 &kp ESC      &kp N1        &kp N2        &kp N3        &kp N4          &kp N5
 &kp TAB      &kp LCTRL     &kp Q         &kp W         &kp E           &kp R
 &kp N0       &kp LALT      &kp A         &kp S         &kp D           &kp F
-&kp SPACE    &kp LSHFT     &kp Z         &kp X         &kp C           &kp V
+&kp SPACE    &kp LSHFT     &kp Y         &kp X         &kp C           &kp V
 &kp F1       &kp F2        &kp F3        &kp F4        &kp F5          &kp F6
             >;
         };
