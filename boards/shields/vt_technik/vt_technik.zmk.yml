@@ -1,0 +1,11 @@
+file_format: "1"
+id: vt_technik
+name: VT-Technik_Keyboard
+type: shield
+url: https://github.com/vitaliturkov/gaming-keyboard-zmk
+requires:
+  - pro_micro
+exposes:
+  - GPIO
+features:
+  - keys
