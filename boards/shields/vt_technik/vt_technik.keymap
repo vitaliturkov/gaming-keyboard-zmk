@@ -29,7 +29,7 @@
 
         default_layer {
             bindings = <
-                &none        &none         &none         &none         &kp LSHFT       &kp SPACE
+                &none        &none         &none         &kp SPACE     &kp LSHFT       &kp LCTRL
                 &kp ESC      &kp N1        &kp N2        &kp N3        &kp N4          &kp N5
                 &tog 1       &kp TAB       &kp Q         &kp W         &kp E           &kp R
                 &tog 2       &kp LCTRL     &kp A         &kp S         &kp D           &kp F
@@ -39,3 +39,4 @@
         };
     };
 };
+ yW
