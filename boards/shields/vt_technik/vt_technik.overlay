@@ -42,9 +42,7 @@ RC(5,0) RC(5,1) RC(5,2) RC(5,3) RC(5,4) RC(5,5)
             , <&gpio1 6  GPIO_ACTIVE_HIGH> // col0 in the schematic
         ;
     };
-};
 
-/ {
     physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "Default";
