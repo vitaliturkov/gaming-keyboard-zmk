@@ -29,12 +29,12 @@
 
         default_layer {
             bindings = <
-                &kp I        &kp M         &kp T         &kp SPACE     &kp LSHFT       &kp LCTRL
                 &kp ESC      &kp N1        &kp N2        &kp N3        &kp N4          &kp N5
                 &tog 1       &kp TAB       &kp Q         &kp W         &kp E           &kp R
                 &tog 2       &kp LCTRL     &kp A         &kp S         &kp D           &kp F
                 &kp LALT     &kp LSHFT     &kp Y         &kp X         &kp C           &kp V
                 &kp F1       &kp F2        &kp F3        &kp F4        &kp F5          &kp F6
+                &kp I        &kp M         &kp T         &kp SPACE     &kp LSHFT       &kp LCTRL
             >;
         };
     };
